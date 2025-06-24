@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="15d99f999d4140248fc8df527d920155" Name="Diagram1">
+        <EntityTypeShape EntityType="TaskSystemModel.Priority" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.TaskLock" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.Task" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.User" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="TaskSystemModel.FK_Tasks_Priority" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskSystemModel.FK_TaskLocks_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskSystemModel.FK_TaskLocks_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskSystemModel.FK_Tasks_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
